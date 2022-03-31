@@ -1,11 +1,13 @@
 import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
-import { NativeBaseProvider } from 'native-base';
+import { useNavigation } from '@react-navigation/native';
+import { Center, NativeBaseProvider } from 'native-base';
 
 import Home from './Home';
+import { fontSize } from 'styled-system';
 
-function Mail() {
+function Cart() {
     return (
-        <Text style={styles.container}>Mail Screen</Text>
+        <Text style={styles.container}>Cart Screen</Text>
     )
 }
 
@@ -23,7 +25,7 @@ export default () => {
     return (
       <NativeBaseProvider>
           <Home/>
-          <Mail/>
+          <Cart/>
       </NativeBaseProvider>
     );
 }

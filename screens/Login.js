@@ -83,7 +83,7 @@ function Login() {
 
       {/* Button */}
       <View style={styles.buttonStyle}>
-        <Button style={styles.buttonDesign} onPress={() => navigation.navigate("Home")}>
+        <Button style={styles.buttonDesign} onPress={() => navigation.navigate("Menu")}>
             LOGIN
         </Button>
         {/* <TouchableOpacity onPress={() => navigation.navigate("Home")}></TouchableOpacity> */}

@@ -148,7 +148,7 @@ function Signup() {
         <Button style={styles.buttonDesign}>
             REGISTER NOW
         </Button>
-        <TouchableOpacity onPress={() => navigation.navigate("Home")}></TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate("Menu")}></TouchableOpacity>
       </View>
     </View>
   );

@@ -15,10 +15,10 @@ function Home() {
                 onPress={() => navigation.navigate("Menu")}
                 />
                 <Appbar.Action icon="mail" onPress={() => navigation.navigate("Mail")} />
-                <Appbar.Action icon="wallet" onPress={() => console.log('Pressed wallet')} />
+                <Appbar.Action icon="wallet" onPress={() => navigation.navigate("Wallet")} />
                 <Appbar.Action
                 icon="cart"
-                onPress={() => console.log('Pressed cart')}
+                onPress={() => navigation.navigate("Cart")}
                 />
         </Appbar>
     )
@@ -28,6 +28,7 @@ export default () => {
     return (
       <NativeBaseProvider>
           <Home/>
+          {/* <Menu/> */}
       </NativeBaseProvider>
     );
 }

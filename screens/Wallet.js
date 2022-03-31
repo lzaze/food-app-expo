@@ -3,9 +3,9 @@ import { NativeBaseProvider } from 'native-base';
 
 import Home from './Home';
 
-function Mail() {
+function Wallet() {
     return (
-        <Text style={styles.container}>Mail Screen</Text>
+        <Text style={styles.container}>Wallet Screen</Text>
     )
 }
 
@@ -23,7 +23,7 @@ export default () => {
     return (
       <NativeBaseProvider>
           <Home/>
-          <Mail/>
+          <Wallet/>
       </NativeBaseProvider>
     );
 }
